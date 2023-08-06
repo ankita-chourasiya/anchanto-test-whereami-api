@@ -190,6 +190,8 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
+    sqlite3 (1.6.3-x86_64-darwin)
+    sqlite3 (1.6.3-x86_64-linux)
     thor (1.2.2)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -221,6 +223,7 @@ DEPENDENCIES
   rspec_junit_formatter (~> 0.4.1)
   spring
   spring-watcher-listen (~> 2.0.0)
+  sqlite3 (~> 1.4)
   tzinfo-data
   webmock (= 3.8.3)
 
