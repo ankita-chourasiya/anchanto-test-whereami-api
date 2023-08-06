@@ -35,5 +35,6 @@ module WeatherApp
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.hosts.clear
+    config.cache_classes = false
   end
 end
