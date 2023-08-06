@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    resources :users do
+      member do
+        get '/whereami', to: 'user#index'
+      end
+    end
+  end
 end
